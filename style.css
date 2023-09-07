@@ -3,6 +3,13 @@ html {
   width: 100%;
 }
 
+body {
+  background-image: url('https://img.freepik.com/premium-photo/toys-shop-design-professional-advertising-photography_925376-7490.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -53,11 +60,21 @@ img {
 
 .container {
   padding: 2px 16px;
+  text-align: center;
+  color: white;
 }
 
+.container1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-
-
+.white {
+  color: white;
+  font-weight:bold;
+}
 
 #signUp {
   margin-top: 10px;
